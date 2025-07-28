@@ -40,7 +40,7 @@ st.sidebar.header("🧑‍🎓 Enter Your Learning Preferences")
 
 goal = st.sidebar.text_area("🎯 Career Goal", placeholder="e.g. I want to become a Data Analyst")
 skills = st.sidebar.text_input("🛠 Current Skills", placeholder="e.g. Python, SQL, Excel")
-target_role = st.sidebar.selectbox("💼 Target Job Role", ["Data Analyst", "Backend Developer", "Project Manager", "AI Engineer", "UX Designer"])
+target_role = st.sidebar.selectbox("💼 Target Job Role", ["Data Analyst", "Backend Developer", "Project Manager", "AI Engineer", "UX Designer" , "Frontend Developer" , "Data Scientist" , "Web Developer"])
 hours = st.sidebar.slider("🕒 Weekly Learning Hours", 1, 30, 6)
 
 submit = st.sidebar.button("🚀 Generate My Learning Path")
